@@ -43,5 +43,10 @@
     "simple-git-hooks": "^2.8.1",
     "solhint": "^3.4.0",
     "solidity-coverage": "^0.8.1"
-  }
+  },
+  "workspaces": [
+    "packages/book",
+    "packages/contracts",
+    "packages/interface"
+  ]
 }

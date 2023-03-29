@@ -1,0 +1,25 @@
+{
+  "name": "book",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx honkit serve ./book_src ./docs",
+    "build": "npx honkit build ./book_src ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosukeMiyata/test-book.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "honkit": "^3.7.1"
+  },
+  "bugs": {
+    "url": "https://github.com/YosukeMiyata/test-book/issues"
+  },
+  "homepage": "https://github.com/YosukeMiyata/test-book/audit-book#readme"
+}
